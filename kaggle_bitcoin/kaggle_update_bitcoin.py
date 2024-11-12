@@ -89,7 +89,7 @@ if __name__ == "__main__":
     if not os.path.exists(upload_dir):
         os.makedirs(upload_dir)
 
-    existing_data_filename = os.path.join(upload_dir, "btcusd_1-min_data.csv")  # The dataset file
+    existing_data_filename = os.path.join(upload_dir, "btcusd_data.csv")  # The dataset file
     output_filename = existing_data_filename  # Output filename (same as the dataset name on Kaggle)
 
     # Step 1: Download the latest dataset and metadata from Kaggle
