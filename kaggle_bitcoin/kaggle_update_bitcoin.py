@@ -81,7 +81,7 @@ def fetch_and_append_missing_data(currency_pair, missing_days, existing_data_fil
 
 # Main execution
 if __name__ == "__main__":
-    dataset_slug = "oganoptik/bitcoin-historical-data"  # Kaggle dataset slug
+    dataset_slug = "oganoptik/btcusd-data"  # Kaggle dataset slug
     currency_pair = "btcusd"
     upload_dir = "upload"
     
